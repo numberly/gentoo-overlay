@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/cxagroup/helm-vault-template/issues</bugs-to>
+    <changelog>https://github.com/cxagroup/helm-vault-template/releases</changelog>
+    <doc>https://github.com/cxagroup/helm-vault-template/blob/master/README.md</doc>
+  </upstream>    
+  <maintainer type="person">
+    <name>Romain Meson</name>
+    <email>romain.meson@numberly.com</email>
+  </maintainer>
+  <longdescription lang="en">
+    This plugin integrates with Vault to render a template file with Vault paths to a
+    file. Useful to prepare a values.yaml file to deploy a helm chart.
+  </longdescription>
+</pkgmetadata>
